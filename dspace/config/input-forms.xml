@@ -43,9 +43,9 @@
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Authors</label>
+         <label>Autores</label>
          <input-type>name</input-type>
-         <hint>Enter the names of the authors of this item.</hint>
+         <hint>Ingrese los nombres de los autores de este documento.</hint>
          <required></required>
        </field>
 
@@ -54,10 +54,12 @@
          <dc-element>title</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Title</label>
+         <label>Título</label>
          <input-type>onebox</input-type>
-         <hint>Enter the main title of the item.</hint>
-         <required>You must enter a main title for this item.</required>
+         <hint>Utilizar mayúsculas únicamente para la primer palabra del título y los nombres propios.
+  Los subtítulos deben separarse del título mediante dos puntos, precedidos y seguidos por un espacio.
+  Cuando el recurso tenga el título en más de un idioma, colocar cada título en instancias separadas de "Otros títulos".</hint>
+         <required>Es obligatorio ingresar un título.</required>
        </field>
 
        <field>
@@ -65,9 +67,9 @@
          <dc-element>title</dc-element>
          <dc-qualifier>alternative</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Other Titles</label>
+         <label>Otros Títulos</label>
          <input-type>onebox</input-type>
-         <hint>If the item has any alternative titles, please enter them here.</hint>
+         <hint>Por cada titulo alternativo, crear una nueva instancia con el botón "Añadir".</hint>
          <required></required>
        </field>
 
@@ -76,12 +78,10 @@
          <dc-element>date</dc-element>
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Date of Issue</label>
+         <label>Fecha de publicación</label>
          <input-type>date</input-type>
-         <hint>Please give the date of previous publication or public distribution.
-                        You can leave out the day and/or month if they aren't
-                        applicable.</hint>
-         <required>You must enter at least the year.</required>
+         <hint>En el caso de las tesis puede ser la fecha de defensa. En caso de no haber sido publicado, puede ingresarse el año de realización del documento.</hint>
+         <required>Es obligatorio ingresar el año.</required>
        </field>
 
        <field>
@@ -89,9 +89,9 @@
          <dc-element>publisher</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Publisher</label>
+         <label>Editor</label>
          <input-type>onebox</input-type>
-         <hint>Enter the name of the publisher of the previously issued instance of this item.</hint>
+         <hint>El editor (comercial o no comercial) del recurso. En el caso de publicaciones universitarias, enumerar el nombre de la universidad, la dependencia (facultad), y el nombre del grupo de investigación separados por puntos seguidos de un espacio. No utilizar acrónimos o abreviaturas.</hint>
          <required></required>
        </field>
 
@@ -126,7 +126,7 @@
          <label>Identifiers</label>
          <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
          <hint>If the item has any identification numbers or codes associated with
-it, please enter the types and the actual numbers or codes.</hint>
+it, please enter the types and the actual numbers or codes below.</hint>
          <required></required>
        </field>
 
@@ -135,9 +135,9 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>type</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Type</label>
+         <label>Tipo</label>
          <input-type value-pairs-name="common_types">dropdown</input-type>
-         <hint>Select the type(s) of content of the item. To select more than one value in the list, you may have to hold down the "CTRL" or "Shift" key.</hint>
+         <hint>Seleccione el(los) tipo(s) de contenidos representados por esta publicación. Para seleccionar mas de un valor de la lista, presionar la tecla "CTRL" o "Shift".</hint>
          <required></required>
        </field>
 
@@ -146,9 +146,9 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>language</dc-element>
          <dc-qualifier>iso</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Language</label>
+         <label>Idioma</label>
          <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
-         <hint>Select the language of the main content of the item.  If the language does not appear in the list, please select 'Other'.  If the content does not really have a language (for example, if it is a dataset or an image) please select 'N/A'.</hint>
+         <hint>Seleccione el idioma del contenido principal de esta publicación. Si el idioma no aparece en la lista, por favor seleccione 'Otro'.  Si el contenido no tiene algún idioma (por ejemplo, un set de datos o una imagen) por favor seleccione 'N/A'.</hint>
          <required></required>
        </field>
      </page>
@@ -162,7 +162,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <repeatable>true</repeatable>
          <label>Subject Keywords</label>
          <input-type>twobox</input-type>
-         <hint>Enter appropriate subject keywords or phrases. </hint>
+         <hint>Enter appropriate subject keywords or phrases below. </hint>
          <required></required>
          <vocabulary>srsc</vocabulary>
        </field>
@@ -174,7 +174,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <repeatable>false</repeatable>
          <label>Abstract</label>
          <input-type>textarea</input-type>
-         <hint>Enter the abstract of the item. </hint>
+         <hint>Enter the abstract of the item below. </hint>
          <required></required>
        </field>
 
@@ -185,7 +185,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <repeatable>false</repeatable>
          <label>Sponsors</label>
          <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box. </hint>
+         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
          <required></required>
        </field>
 
@@ -211,7 +211,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <repeatable>true</repeatable>
          <label>One: Authors</label>
          <input-type>name</input-type>
-         <hint>Enter the names of the authors of this item.</hint>
+         <hint>Enter the names of the authors of this item below.</hint>
          <required></required>
        </field>
       </page>
@@ -262,20 +262,16 @@ it, please enter the types and the actual numbers or codes.</hint>
 
    <value-pairs value-pairs-name="common_types" dc-term="type">
      <pair>
-       <displayed-value>Animation</displayed-value>
-       <stored-value>Animation</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Article</displayed-value>
+       <displayed-value>Articulo</displayed-value>
        <stored-value>Article</stored-value>
      </pair>
      <pair>
-       <displayed-value>Book</displayed-value>
+       <displayed-value>Libro</displayed-value>
        <stored-value>Book</stored-value>
      </pair>
      <pair>
-       <displayed-value>Book chapter</displayed-value>
-       <stored-value>Book chapter</stored-value>
+       <displayed-value>Parte de libro</displayed-value>
+       <stored-value>BookPart</stored-value>
      </pair>
      <pair>
        <displayed-value>Dataset</displayed-value>

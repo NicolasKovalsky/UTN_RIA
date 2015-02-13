@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: "Exo";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/Exo-Regular.ttf") format("truetype"), url("./fonts/Exo-Regular.ttf") format("woff");
+}
+.aoaoa{
+    font-color:red;
+}
+body {
+    font-family: "Exo" !important;
+}
+h1 {
+    font-family: "Exo" !important;
+}
+
+h2 {
+    font-family: "Exo" !important;
+    font-weight:bold !important;
+}
+h3 {
+    font-family: "Exo" !important;
+}
+h4 {
+    font-family: "Exo" !important;
+}
+h5 {
+    font-family: "Exo" !important;
+}
+h6 {
+    font-family: "Exo" !important;
+}
+
+#aspect_eperson_PasswordLogin_field_login_email{
+	margin-bottom: 10px;
+}
+
+#aspect_eperson_PasswordLogin_field_login_password{
+	margin-bottom: 10px;
+}
+
+#aspect_eperson_PasswordLogin_field_submit{
+	margin-top: 10px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color:#1f3f5e;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.btn-primary{
+    background-color: #1f3f5e;
+    border-color: #2c3e50;
+    color: #ffffff;
+}
+
+.trail-wrapper {
+    background-color: #95a5a6 !important;
+    border-bottom: 1px solid #8b9eb2;
+}
+
+
+header .navbar-default .navbar-toggle > li > a, header .navbar-default .navbar-nav > li > a {
+    padding-bottom: 40px !important;
+    padding-top: 35px !important;
+}
+
+.trail-wrapper .breadcrumb li a{
+    color:#ffffff !important;
+}
+
+#aspect_eperson_EditProfile_field_first_name{
+    margin-bottom: 10px !important;
+}
+
+#aspect_eperson_EditProfile_field_last_name{
+    margin-bottom: 10px !important;
+}
+
+#aspect_eperson_EditProfile_field_phone{
+    margin-bottom: 10px !important;
+}
+
+#aspect_eperson_EditProfile_field_password{
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+#aspect_administrative_item_FindItemForm_field_identifier{
+    margin-bottom: 10px;    
+}
+
+#aspect_administrative_CurateForm_field_curate_task{
+    margin-bottom: 10px;
+}
+
+.ds-gloss-list-label {
+    margin-left: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+    header .navbar-brand img {
+    height: 24px !important;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    header .navbar-brand img {
+    height: 22px !important;
+    }
+}
+
+@media screen and (max-width: 312px) {
+    header .navbar-brand img {
+    height: 20px !important;
+    }
+}
+
