@@ -1,3 +1,22 @@
+Configuraciones específicas para el Repositorio Institucional Abierto de la UTN
+
+Instrucciones:
+-Para actualizar la version de DSpace, hacer:
+	
+	git fetch upstream
+
+	(En caso de que no esté disponible el remote upstream agregarlo con "git remote add upstream https://github.com/DSpace/DSpace")
+
+
+Actualizar archivo de traducciones:
+
+	El repositorio principal de las traduccions de dspace es:
+	https://github.com/DSpace/dspace-xmlui-lang/
+
+	1) Cambiar al tag del release de la version de Dspace a utilizar
+	2) Descargar el archivo y compararlo con la traducción adaptada de la utn disponible en dspace/modules/xmlui/src/main/webapp/i18n/messages_es.xml
+
+
 DSpace version information can be viewed online at
  - https://wiki.duraspace.org/display/DSDOC/
 
