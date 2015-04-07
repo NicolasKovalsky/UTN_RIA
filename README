@@ -1,5 +1,7 @@
 Configuraciones específicas para el Repositorio Institucional Abierto de la UTN
 
+Version actual: dspace-5.1
+
 Instrucciones:
 -Para actualizar la version de DSpace, hacer:
 	
@@ -7,6 +9,13 @@ Instrucciones:
 
 	(En caso de que no esté disponible el remote upstream agregarlo con "git remote add upstream https://github.com/DSpace/DSpace")
 
+	git checkout master
+
+	git merge upstream/master
+
+	git checkout UTN-RIA
+
+	git merge #TagDeVersion
 
 Actualizar archivo de traducciones:
 
