@@ -78,7 +78,7 @@ header .navbar-default .navbar-toggle > li > a, header .navbar-default .navbar-n
 
 
 .trail-wrapper .breadcrumb li a{
-    color:#ffffff !important;
+    color:#1f3f5e !important;
 }
 
 #aspect_eperson_EditProfile_field_first_name{
@@ -129,3 +129,6 @@ header .navbar-default .navbar-toggle > li > a, header .navbar-default .navbar-n
     }
 }
 
+#trail-dropdown-toggle:hover, #trail-dropdown-toggle:focus{
+    color: whitesmoke;
+}
