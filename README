@@ -1,3 +1,46 @@
+Configuraciones específicas para el Repositorio Institucional Abierto de la UTN
+
+Version actual: dspace-5.1
+
+Instrucciones:
+-Para actualizar la version de DSpace, hacer:
+	
+	git fetch upstream
+
+	(En caso de que no esté disponible el remote upstream agregarlo con "git remote add upstream https://github.com/DSpace/DSpace")
+
+	git checkout master
+
+	git merge upstream/master
+
+	git checkout UTN-RIA
+
+	git merge #TagDeVersion
+
+	Luego, seguir las instrucciones de la documentación de dspace para una actualización segura. 
+	https://wiki.duraspace.org/display/DSDOC5x/Upgrading+DSpace (upgrade guide para version 5)
+	
+	### Nota: PARA ACTUALIZAR, SIEMPRE EJECUTAR TODOS LOS COMANDOS DE MAVEN Y ANT CON USUARIO DSPACE. REQUERIRÁ SETEAR LAS VARIABLES DE ENTORNO CON EL COMANDO . /etc/profile ###
+
+	Datos:
+	Database user: Dspace 
+	Database name: Dspace
+	Database password: (ver credentials)
+	Db Backups Files: /data/backups/db_backup_DD_MM_YYYY
+
+
+
+
+
+Actualizar archivo de traducciones:
+
+	El repositorio principal de las traduccions de dspace es:
+	https://github.com/DSpace/dspace-xmlui-lang/
+
+	1) Cambiar al tag del release de la version de Dspace a utilizar
+	2) Descargar el archivo en dspace/modules/xmlui/src/main/webapp/i18n/messages_es.dspace y compararlo con la traducción adaptada de la utn disponible en dspace/modules/xmlui/src/main/webapp/i18n/messages_es.xml (herramienta recomendada -> WinMerge. Comparar diferencia con diferencia, y evitar reemplazar las referencias directas al RIA)
+
+
 DSpace version information can be viewed online at
  - https://wiki.duraspace.org/display/DSDOC/
 
