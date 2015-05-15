@@ -6,14 +6,17 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace - The item export you requested was not completed.
-The item export you requested was not completed, due to the following reason:
+Subject: RIA - La exportación de item solicitado no ha sido completada.
+La exportación del item solicitado no ha sido completada por las siguientes razones:
  {0}
 
-For more information you may contact your system administrator:
+Para mayor información por favor contactarse con el administrador del sistema:
  {1}
 
+Atentamente,
 
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
 
-The DSpace Team
 

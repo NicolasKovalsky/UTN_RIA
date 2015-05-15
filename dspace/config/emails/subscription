@@ -4,9 +4,14 @@
 # Parameters: {0} is the details of the new collections and items
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace Subscription
-New items are available in the collections you have subscribed to:
+Subject: Suscripción en el RIA
+Nuevas publicaciones en la colección a la que te suscribiste:
 
 {0}
 
-DSpace
+Atentamente,
+
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
+

@@ -6,18 +6,23 @@
 # {3}  Reason for the rejection
 # {4}  Link to 'My DSpace' page
 #
-Subject: DSpace: Submission Rejected
+Subject: RIA: Solicitud de publicación rechazada
 
-You submitted: {0}
+Usted ha solicitado la publicación del trabajo: {0}
 
-To collection: {1}
+En la colección: {1}
 
-Your submission has been rejected by {2}
-with the following explanation:
+Su trabajo ha sido rechazado por {2}
+con la siguiente justificación:
 
 {3}
 
-Your submission has not been deleted.  You can access it from your
-"My DSpace" page: {4}
+Su trabajo no ha sido eliminado.  Puede acceder al mismo a través del acceso
+"Mi RIA": {4}
 
-DSpace
+Atentamente,
+
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
+

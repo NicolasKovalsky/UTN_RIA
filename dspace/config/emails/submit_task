@@ -6,19 +6,23 @@
 # {3}  Description of task
 # {4}  link to 'my DSpace' page 
 #
-Subject: DSpace: You have a new task
+Subject: RIA: Nueva tarea pendiente
 
-A new item has been submitted:
+Se ha solicitado la publicación de un nuevo item:
 
-Title:        {0}
-Collection:   {1}
-Submitted by: {2}
+Titulo:        {0}
+Colección:   {1}
+Solicitada por: {2}
 
 {3}
 
-To claim this task, please visit your "My DSpace"
-page:  {4}
+Para resolver la publicación, por favor visite "Mi RIA".
+Link:  {4}
 
-Many thanks!
+Muchas gracias,
 
-DSpace
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
+
+
