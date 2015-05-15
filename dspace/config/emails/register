@@ -4,13 +4,17 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace Account Registration
-To complete registration for a DSpace account, please click the link
-below:
+Subject: Registración de usuario en el Repositorio Institucional Abierto
+Para completar su registración como usuario del Repositorio Institucional Abierto de la Universidad Tecnológica Nacional, por favor haga click en el siguiente link:
 
   {0}
 
-If you need assistance with your account, please email
-dspace-help@myu.edu or call us at xxx-555-xxxx.
+Si necesita asistencia con su cuenta, por favor escriba un correo a 
+admin-ria@rec.utn.edu.ar.
 
-The DSpace Team
+Atentamente,
+
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
+

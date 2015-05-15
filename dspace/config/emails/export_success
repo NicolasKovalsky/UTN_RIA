@@ -5,14 +5,20 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace - Item export requested is ready for download
-The item export you requested from the repository is now ready for download.
+Subject: RIA - La exportación del item solicitado está lista para su descarga
+El item cuya exportación has solicitado ya se encuentra disponible para descarga.
 
-You may download the compressed file using the following link:
+Puedes descargar el archivo comprimido en el siguiente enlace:
 {0}
 
-This file will remain available for at least {1} hours.  
+Este archivo permanecerá disponible por {1} horas.  
+
+Atentamente,
+
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
 
 
-The DSpace Team
+
 

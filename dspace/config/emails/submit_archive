@@ -4,18 +4,20 @@
 # {1}  Name of collection
 # {2}  handle 
 #
-Subject: DSpace: Submission Approved and Archived 
+Subject: RIA: Trabajo aprobado e incorporado al Repositorio 
 
-You submitted: {0}
+Usted ha solicitado la publicación del trabajo: {0}
 
-To collection: {1}
+En la colección: {1}
 
-Your submission has been accepted and archived in DSpace,
-and it has been assigned the following identifier:
+Su trabajo ha sido aprobado e incorporado al Repositorio Institucional Abierto,
+y ha sido asignado el siguiente identificador:
 {2}
 
-Please use this identifier when citing your submission.
+Por favor utilice el anterior identificador cuando cite su trabajo.
 
-Many thanks!
+Muchas Gracias
 
-DSpace
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado

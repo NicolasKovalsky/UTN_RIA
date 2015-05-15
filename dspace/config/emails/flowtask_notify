@@ -7,17 +7,23 @@
 # {4}  Task result
 # {5}  Workflow action taken
 #
-Subject: DSpace: Curation Task Report
+Subject: RIA: Reporte de tareas de curación
 
-Title:         {0}
-Collection:    {1}
-Submitted by:  {2}
+Titulo:         {0}
+Colección:    {1}
+Publicación solicitada por:  {2}
 
-Curation task {3} has been performed
-with the following result:
+La operación de curación {3} ha sido finalizada con el siguiente resultado:
 
 {4}
 
-Action taken on the submission: {5}
+Tarea realizada: {5}
 
-DSpace
+Atentamente,
+
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
+
+
+

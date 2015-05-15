@@ -6,14 +6,16 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace - The batch import was not completed.
-The batch import you initiated from the DSpace UI was not completed, due to the following reason:
+Subject: RIA - Importación grupal no fue completada.
+La importación de grupo solicitada en la interfaz del RIA no fue completada debido a las siguientes razones:
  {0}
 
-For more information you may contact your system administrator:
+Para mayor información, contáctese con el administrador del sistema:
  {1}
 
 
+Atentamente,
 
-The DSpace Team
-
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado

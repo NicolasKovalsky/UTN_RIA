@@ -10,8 +10,14 @@
 #
 Subject: DSpace: Registration Notification
 
-A new user has registered on {0} at {1}:
+Se ha registrado un nuevo usuario en {0} disponible en {1}:
 
-Name:                   {2}
+Nombre:                   {2}
 Email:                  {3}
-Date:                   {4}
+Fecha:                   {4}
+
+Atentamente,
+
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado

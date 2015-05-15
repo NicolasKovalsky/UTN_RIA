@@ -5,11 +5,16 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace - Batch import successfully completed
-The batch item import you initiated from the DSpace UI has completed successfully.
+Subject: RIA - Importación de grupo finalizada exitosamente
+La importación grupal iniciada a través de la interfaz del RIA ha sido finalizada exitosamente.
 
-You may find the mapfile for the import in the following path: {0}
+Puede encontrar un mapfile de la importación en la siguiente dirección: {0}
 
 
-The DSpace Team
+Atentamente,
+
+Equipo del Repositorio Institucional Abierto,
+Secretaría de Tecnologías de Información y Comunicación,
+Universidad Tecnológica Nacional - Rectorado
+
 
